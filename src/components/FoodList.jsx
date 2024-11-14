@@ -1,25 +1,26 @@
+import FoodCard from "./FoodCard";
+
 let foods = [
     'bokkeumbap',
     'ramen',
     'sushi',
     'pasta',
     'pork buns',
-    'suvlaki',
-    'dumplings',
+    'lasagna',
     'pizza',
-    'burgers'
+    'dumplings',
+    'Butter Chicken',
+    'Laksa'
 ];
 
 export default function FoodList(){
     return (
         <section>
-            <ul>
                 {
                     foods.map(food => {
-                        return <li>{food}</li>
+                        return <p><FoodCard foodName={food}/></p>
                     })
-                }   
-            </ul>
+                }
         </section>
     )
 }
