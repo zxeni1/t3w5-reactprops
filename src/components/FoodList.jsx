@@ -1,14 +1,14 @@
 import FoodCard from "./FoodCard";
 
 let foods = [
-    'bokkeumbap',
-    'ramen',
-    'sushi',
-    'pasta',
-    'pork buns',
-    'lasagna',
-    'pizza',
-    'dumplings',
+    'Bokkeumbap',
+    'Ramen',
+    'Sushi',
+    'Pasta',
+    'Pork Buns',
+    'Lasagna',
+    'Pizza',
+    'Dumplings',
     'Butter Chicken',
     'Laksa'
 ];
